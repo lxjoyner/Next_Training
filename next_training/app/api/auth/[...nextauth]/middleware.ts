@@ -1,0 +1,1 @@
+export { auth as middleware } from "@/auth" //this will update the session expiry every time its called.
