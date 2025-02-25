@@ -31,5 +31,12 @@
     "typescript": "^5",
     "nx": "20.4.6"
   },
-  "nx": {}
+  "nx": {
+    "$schema": "./node_modules/nx/schemas/nx-schema.json",
+    "defaultBase": "main",
+    "nxCloudId": "67bce6505c961dd04c226eec",
+    "plugins": [],
+    "targetDefaults": {},
+    "namedInputs": {}
+  }
 }
