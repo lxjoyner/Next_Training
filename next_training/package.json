@@ -35,7 +35,20 @@
     "$schema": "./node_modules/nx/schemas/nx-schema.json",
     "defaultBase": "main",
     "nxCloudId": "67bce6505c961dd04c226eec",
-    "plugins": [],
+    "plugins": [ {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "eslint:lint"
+      }
+    },
+      {
+        "plugin": "@nx/next/plugin",
+        "options": {
+          "buildTargetName": "next:build",
+          "devTargetName": "dev",
+          "startTargetName": "start"
+        }
+      }],
     "targetDefaults": {},
     "namedInputs": {}
   }
