@@ -1,0 +1,113 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.4.6",
+  "pathMappings": {
+    "@/*": [
+      "./*"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "next_training": [
+        {
+          "file": ".gitignore",
+          "hash": "15798039562762684133"
+        },
+        {
+          "file": "README.md",
+          "hash": "10011398316402962549"
+        },
+        {
+          "file": "app/(root)/layout.tsx",
+          "hash": "8009046633738195926"
+        },
+        {
+          "file": "app/(root)/page.tsx",
+          "hash": "7818981654145662478"
+        },
+        {
+          "file": "app/api/auth/[...nextauth]/middleware.ts",
+          "hash": "6622490121558308021"
+        },
+        {
+          "file": "app/api/auth/[...nextauth]/route.ts",
+          "hash": "17082839098816766105"
+        },
+        {
+          "file": "app/components/Navbar.tsx",
+          "hash": "12023543155947923239"
+        },
+        {
+          "file": "app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "app/globals.css",
+          "hash": "14948914302565574510"
+        },
+        {
+          "file": "app/layout.tsx",
+          "hash": "7148613657099386232"
+        },
+        {
+          "file": "auth.ts",
+          "hash": "6249587981131179063"
+        },
+        {
+          "file": "eslint.config.mjs",
+          "hash": "9457570080930645618"
+        },
+        {
+          "file": "next.config.ts",
+          "hash": "5307796689141320326"
+        },
+        {
+          "file": "nx.json",
+          "hash": "4179751960268713956"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "18426469167908468641"
+        },
+        {
+          "file": "package.json",
+          "hash": "11235600168664243451",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "npm:nx",
+            "npm:next",
+            "npm:next-auth",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "postcss.config.mjs",
+          "hash": "17882505348629598648"
+        },
+        {
+          "file": "public/logo.png",
+          "hash": "13891898949434994478"
+        },
+        {
+          "file": "tailwind.config.ts",
+          "hash": "16618838023424431096"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "13936316594143825552"
+        }
+      ]
+    }
+  }
+}
